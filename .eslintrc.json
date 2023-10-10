@@ -1,0 +1,16 @@
+//,airbnb, google, next 등 다양한 규칙들이 있다. 그 중에 대표적인 airbnb 규칙을 사용해서 설치하고자 한다.
+
+/*{
+  "extends": "next/core-web-vitals"  
+}*/
+
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "linebreak-style": 0
+  }
+}
